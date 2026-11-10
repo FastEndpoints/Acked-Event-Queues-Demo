@@ -13,7 +13,7 @@
         <PackageReference Include="Microsoft.NET.Test.Sdk" Version="18.10.1"/>
         <PackageReference Include="xunit.v3" Version="4.0.1"/>
         <PackageReference Include="xunit.runner.visualstudio" Version="4.0.0" PrivateAssets="all" IncludeAssets="runtime; build; native; contentfiles; analyzers; buildtransitive"/>
-        <PackageReference Include="FastEndpoints.Messaging.Remote.Testing" Version="9.0.0-beta.7"/>
+        <PackageReference Include="FastEndpoints.Messaging.Remote.Testing" Version="9.0.0-beta.11"/>
     </ItemGroup>
 
     <ItemGroup>
