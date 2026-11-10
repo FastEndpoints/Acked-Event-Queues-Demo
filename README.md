@@ -1,6 +1,6 @@
 # Acknowledged Event Queues With EFCore+SQLite Demo
 
-Requires the .NET 10 SDK. Persistence uses EF Core and SQLite, with separate databases for the publisher and subscriber. FastEndpoints packages are pinned to `8.4.0-beta.19`.
+Requires the .NET 11 RC3 SDK (`11.0.100-rc.3.26522.148`) or a compatible newer .NET 11 SDK. EF Core and ASP.NET Core testing packages use the matching `11.0.0-rc.3.26522.148` release. Persistence uses EF Core and SQLite, with separate databases for the publisher and subscriber. FastEndpoints packages are pinned to `8.4.0-beta.19`.
 
 ## Run
 
@@ -31,4 +31,4 @@ The demo initializes its schema using `EnsureCreatedAsync`. Existing subscriber 
 dotnet test EventQueuesDemo.sln
 ```
 
-Tests use isolated temporary SQLite databases and cover publishing, delivery, payload persistence, batch ordering, subscriber restoration, completion, and cleanup. `global.json` enables the Microsoft Testing Platform runner used by xUnit v4 on .NET 10.
+Tests use isolated temporary SQLite databases and cover publishing, delivery, payload persistence, batch ordering, subscriber restoration, completion, and cleanup. `global.json` enables the Microsoft Testing Platform runner used by xUnit v4 on .NET 11.

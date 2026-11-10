@@ -19,18 +19,7 @@
       </profile-state>
     </entry>
   </component>
-  <component name="ShelveChangesManager">
-    <option name="remove_strategy" value="true" />
-  </component>
   <component name="SvnConfiguration">
     <configuration />
-  </component>
-  <component name="VcsManagerConfiguration">
-    <option name="CHECK_NEW_TODO" value="false" />
-    <option name="CHECK_LOCALLY_CHANGED_CONFLICTS_IN_BACKGROUND" value="true" />
-    <confirmRemoveEmptyChangelist value="2" />
-    <option name="SHOW_DIRTY_RECURSIVELY" value="true" />
-    <option name="MAXIMUM_HISTORY_ROWS" value="500" />
-    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
 </project>
