@@ -354,3 +354,5 @@ event-queue-sandbox.sln
 *.db
 *.db-shm
 *.db-wal
+
+.serena/
