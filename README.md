@@ -1,6 +1,6 @@
 # Acknowledged Event Queues With EFCore+SQLite Demo
 
-Requires the .NET 11 RC3 SDK (`11.0.100-rc.3.26522.148`) or a compatible newer .NET 11 SDK. EF Core and ASP.NET Core testing packages use the matching `11.0.0-rc.3.26522.148` release. Persistence uses EF Core and SQLite, with separate databases for the publisher and subscriber. FastEndpoints packages are pinned to `9.0.0-beta.7`.
+Requires the .NET 11 SDK (`11.0.100`) or a compatible newer stable .NET 11 SDK. EF Core and ASP.NET Core testing packages use the matching `11.0.0` release. Persistence uses EF Core and SQLite, with separate databases for the publisher and subscriber. FastEndpoints packages are pinned to `9.0.0`.
 
 ## Run
 
